@@ -1,0 +1,53 @@
+:root{
+    --primary-color: #fff;
+    --secondary-color: #c7c7ca;
+    --text-color: #aaaaaa;
+    --button-color: #4CAF50;
+    --button-hover-color:#45a049;
+}
+/*centre the calculator*/
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+/*overall lineout of the calculator*/
+.calculator {
+      background-color: var(--secondary-color);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*styling for the display screen*/
+.display {
+      width: 160px;
+      height: 40px;
+      text-align: right;
+      margin-bottom: 10px;
+      font-size: 1.5em;
+      padding: 5px;
+    }
+/*put buttons into grids*/
+.buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 40px);
+      gap: 10px;
+}
+/*button style*/
+.buttons button {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2em;
+      border: none;
+      background-color: var(--button-color);
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+}
+ /* Hover effect for the buttons */
+.buttons button:hover {
+      background-color: var(--button-hover-color);
+}
