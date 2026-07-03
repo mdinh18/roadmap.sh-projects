@@ -7,3 +7,4 @@ I practice the lessons I learned by doing projects on roadmap.sh
 [Changelog](https://roadmap.sh/projects/changelog-component), 
 [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
 [ageCalculator](https://roadmap.sh/projects/age-calculator)
+[contact info](https://roadmap.sh/projects/contact-form)
