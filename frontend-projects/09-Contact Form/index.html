@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+</head>
+<body>  
+    <header>
+        <h1>Home | Acme Support</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Contact-section">
+        <h2>Contact us</h2>
+        <p>Send a message and we will get back to you</p>
+
+        <form action="#" method="post">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="subject">Subjext</label><br>
+                    <select name="" id="subject"required>
+                        <option value="movie">Movie</option>
+                        <option value="books">Books</option>
+                        <option value="games">Games</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" rows="6" minlength="10"></textarea>
+                </div>
+
+                <fieldset required>
+                    <legend>How did you hear about us?</legend>
+                    <label><input type="radio" name="contact" value="email"> Search</label>
+                    <label><input type="radio" name="contact" value="phone"> Friend</label>
+                    <label><input type="radio" name="contact" value="phone"> Social Media</label>
+                    <label><input type="checkbox" name="optional-checkbox" value="updates">Send me product updates</label>
+                </fieldset>
+
+                <div>
+                    <button type="submit">Send message</button>
+                </div>
+
+        </form>
+    </div>
+
+     <footer>
+        <p>&copy; 2026 Acme Support</p>
+    </footer>   
+</body>
+</html>
