@@ -10,3 +10,4 @@ I practice the lessons I learned by doing projects on roadmap.sh
 [contact info](https://roadmap.sh/projects/contact-form),
 [FlashCards](https://roadmap.sh/projects/flash-cards)
 [BlogPostPage](https://roadmap.sh/projects/blog-post-page)
+[Photo Showcase](https://roadmap.sh/projects/photo-showcase)
