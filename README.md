@@ -9,3 +9,4 @@ I practice the lessons I learned by doing projects on roadmap.sh
 [ageCalculator](https://roadmap.sh/projects/age-calculator)
 [contact info](https://roadmap.sh/projects/contact-form),
 [FlashCards](https://roadmap.sh/projects/flash-cards)
+[BlogPostPage](https://roadmap.sh/projects/blog-post-page)
